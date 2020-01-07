@@ -1,0 +1,134 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="nekaj.css">
+    <!-- End CSS -->
+    <!-- Favicons -->
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <title>naslov</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-dark bg-dark">
+            <a class="navbar-brand" href="index.html">Xiaomi</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample01" aria-controls="navbarsExample01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarsExample01">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="News.html">News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="About us.html">About us</a>
+                    </li>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Contact.html">Contact us</a>
+                    </li>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Gallery.html">Gallery</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <h1> Contact us </h1>
+    <main role="main" class="container mt-5 ml">
+        <div class="col-md-8 order-md-1 ">
+            <form class="needs-validation" novalidate="">
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        
+                            <label for="firstName">First name</label>
+                            <input type="text" class="form-control" id="firstName" placeholder="" value="" required="">
+                            <div class="invalid-feedback">
+                                Valid first name is required.
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label for="lastName">Last name</label>
+                            <input type="text" class="form-control" id="lastName" placeholder="" value="" required="">
+                            <div class="invalid-feedback">
+                                Valid last name is required.
+                            </div>
+                        </div>
+                    </div>
+
+                <div class="mb-3">
+                    <label for="email">Email <span class="text-muted"></span></label>
+                    <input type="email" class="form-control" id="email" placeholder="you@example.com" required>
+                    <div class="invalid-feedback">
+                        Please enter a valid email address for shipping updates.
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <label for="address">Address</label>
+                    <input type="text" class="form-control" id="address" placeholder="1234 Main St" required="">
+                    <div class="invalid-feedback">
+                        Please enter your shipping address.
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <label for="address2">Address 2 <span class="text-muted">(Optional)</span></label>
+                    <input type="text" class="form-control" id="address2" placeholder="Apartment or suite">
+                </div>
+
+                <div class="row">
+                    <div class="col-md-5 mb-3">
+                        <label for="country">Country</label>
+                        <select class="custom-select d-block w-100" id="country" required="">
+                            <option value="">Choose...</option>
+                            <option>United States</option>
+                            <option>Croatia</option>
+                            <option>Italy</option>
+                            <option>United Kingdom</option>
+                            <option>Switzerland</option>
+                            <option>France</option>
+                        </select>
+                        <div class="invalid-feedback">
+                            Please select a valid country.
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <label for="zip">Zip</label>
+                        <input type="text" class="form-control" id="zip" placeholder="" required="">
+                        <div class="invalid-feedback">
+                            Zip code required.
+                        </div>
+                    </div>
+                </div>
+                    
+
+                <hr class="mb-4">
+                <button class="btn btn-primary btn-lg btn-block" type="submit">Send message</button>
+            </form>
+        </div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2769.827627031401!2d15.950913615659967!3d46.03458787911183!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4765e7dfa672cdc3%3A0x214c1ecd83f89620!2zxaBwacSNa292aW5hIDk3LCA0OTIxMCwgxaBwacSNa292aW5h!5e0!3m2!1sen!2shr!4v1578159788909!5m2!1sen!2shr" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="container text-center">
+                <span class="text-muted">Copyright Dubcek</span>
+                <a href="https://www.mi.com/global"><img src="Images/xiaomilogo.png" height="24" width="24"></a>
+            </div>
+        </div>
+    </footer>
+    <!-- Section scripts -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <!-- End section scripts-->
+</body>
+</html>
